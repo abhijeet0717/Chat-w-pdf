@@ -1,0 +1,24 @@
+# Node/PNPM
+node_modules/
+pnpm-lock.yaml
+.pnpm-store/
+
+# Build outputs
+.next/
+dist/
+build/
+coverage/
+
+# Env and local config
+.env
+.env.local
+.env.*.local
+
+# App-specific
+client/.next/
+server/uploads/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
